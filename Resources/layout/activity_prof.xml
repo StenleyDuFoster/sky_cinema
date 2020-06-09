@@ -1,0 +1,99 @@
+
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textemail" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="20dp"
+        android:gravity="top">
+
+         <TextView
+            android:text="Search"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textSearch"
+            android:layout_marginLeft="15.6dp" />
+        <Button
+            android:text="Popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentSearchPop" />
+        <Button
+            android:text="Top rated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentSearchTop"
+            android:layout_marginBottom="11.6dp"
+            android:background="@android:color/holo_blue_dark" 
+        />
+
+         <TextView
+            android:text="Content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textContent"
+            android:layout_marginLeft="15.6dp" />
+        <Button
+            android:text="ALL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray" 
+            android:id="@+id/contentAll" />
+        <Button
+            android:text="Five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentF"
+            android:layout_marginBottom="11.6dp"
+            
+        />
+
+        <TextView
+            android:text="Lang"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textLang"
+            android:layout_marginLeft="15.6dp" />
+        <Button
+            android:text="RU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark" 
+            android:id="@+id/langRu" />
+        <Button
+            android:text="ENG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/langEN"
+            android:layout_marginBottom="11.6dp" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

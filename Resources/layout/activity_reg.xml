@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:label="@string/app_name">
+
+
+   
+    
+    
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="286.2dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="131.0dp"
+        android:layout_marginTop="350dp"
+        android:hint="password"
+        android:id="@+id/pas_reg"
+        android:layout_centerHorizontal="true"
+    />
+
+
+
+    <EditText
+        android:inputType="textEmailAddress"
+         android:layout_width="316.0dp"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="131.0dp"
+        android:layout_marginTop="300dp"
+        android:hint="email"
+        android:id="@+id/email_reg"
+        android:layout_centerHorizontal="true"
+    />
+
+    <Button
+        android:text="register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_now"
+         android:layout_marginRight="0dp"
+        android:layout_marginLeft="155.0dp"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        
+        />
+
+    <Button
+        android:text="back to login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_to_log"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="8.7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp"
+        />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_console"
+        android:layout_marginTop="504.4dp"
+        android:layout_marginLeft="141.1dp"
+        android:layout_centerHorizontal="true"
+    />
+    
+</RelativeLayout>
